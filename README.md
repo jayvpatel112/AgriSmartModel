@@ -7,8 +7,6 @@ This project bridges the gap between data science and web engineering by serving
 
 <img width="555" height="572" alt="Screenshot 2026-03-16 at 6 06 36 PM" src="https://github.com/user-attachments/assets/708682a8-f677-42e3-ab89-003ec9040cd2" />
 
-*(Note: Replace this link with the actual path to your UI screenshot)*
-
 ## 🚀 Tech Stack
 - **Machine Learning:** Python, Scikit-Learn, Pandas, Joblib
 - **Backend API:** FastAPI, Uvicorn, Pydantic
@@ -29,3 +27,7 @@ Navigate to the backend directory and run:
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+cd frontend
+npm install
+npm run dev
